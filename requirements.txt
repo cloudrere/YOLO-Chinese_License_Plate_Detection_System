@@ -1,0 +1,33 @@
+# =============================================================
+# 车牌识别系统依赖清单
+# 测试环境：Windows 10/11 + Python 3.10 + Anaconda
+# 安装：pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# =============================================================
+
+# ---------- UI 框架 ----------
+PyQt5>=5.15.0
+
+# ---------- 数据与图像处理 ----------
+numpy>=1.21,<2.0
+Pillow>=9.0.0
+# PaddleOCR 2.7.0.3 会把 opencv 锁定到 4.6.0.66，跟着走即可
+opencv-python>=4.5.0
+
+# ---------- 结果导出 ----------
+openpyxl>=3.0.9
+
+# ---------- YOLO 车牌检测 ----------
+ultralytics>=8.0.0
+# PyTorch：GPU 用户请按 CUDA 版本单独安装对应版本
+torch>=1.13.0
+torchvision>=0.14.0
+
+# ---------- PaddleOCR 文字识别 ----------
+# ⚠️ 关键版本约束：
+#   PaddlePaddle 3.3.0 在 CPU 模式下有 PIR+oneDNN 已知 bug
+#   (issue: https://github.com/PaddlePaddle/Paddle/issues/77340)
+#   本系统固定在 2.6.2，对应 PaddleOCR 2.7.0.3，实测稳定。
+#
+# GPU 用户：把 paddlepaddle 换成 paddlepaddle-gpu==2.6.2 即可
+paddlepaddle==2.6.2
+paddleocr==2.7.0.3
