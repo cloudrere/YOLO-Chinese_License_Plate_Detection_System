@@ -2,7 +2,20 @@
 
 > 基于 **PyQt5 + Ultralytics YOLO + PaddleOCR** 的 Windows 桌面车牌识别系统
 > 支持 18 种中国车牌类型、4 种输入源、12 项运行时可调参数、视频自动去重
-
+<img width="400" height="400" alt="主界面" src="https://github.com/user-attachments/assets/c4cb98df-5be7-445f-a62e-ec4df54208eb" />
+<img width="400" height="400" alt="参数设置" src="https://github.com/user-attachments/assets/6cb26dfe-75ac-4df3-9434-cd01fecae234" />
+<img width="400" height="400" alt="普通蓝牌检测" src="https://github.com/user-attachments/assets/70fd2084-6aa8-4e4e-aace-715ffb5c2f9a" />
+<img width="400" height="400" alt="特殊黑牌检测" src="https://github.com/user-attachments/assets/7ae88397-12f0-4e43-aa61-6cecc632cc35" />
+<img width="400" height="400" alt="双层黄牌检测" src="https://github.com/user-attachments/assets/6ed75420-65dc-41c1-b79c-f214f1fb4c26" />
+<img width="400" height="400" alt="单层黄牌检测" src="https://github.com/user-attachments/assets/06f57ec5-5fd7-4263-96ae-b21c596b20f9" />
+<img width="400" height="400" alt="单层军牌检测" src="https://github.com/user-attachments/assets/713f0751-e8a3-44cc-a852-b98630ee4ed9" />
+<img width="400" height="400" alt="双层军牌检测" src="https://github.com/user-attachments/assets/a5c927aa-21bf-413f-9d58-48b95064afe3" />
+<img width="400" height="400" alt="小型新能源车牌检测" src="https://github.com/user-attachments/assets/d049ceaf-8538-493e-a5de-e62713206218" />
+<img width="400" height="400" alt="大型新能源车牌检测" src="https://github.com/user-attachments/assets/b77f8538-33c0-454a-9290-ae955376c25f" />
+<img width="400" height="400" alt="使馆车牌检测" src="https://github.com/user-attachments/assets/e4c05466-0e44-4a50-bf37-5b42d325efbd" />
+<img width="400" height="400" alt="教练车牌检测" src="https://github.com/user-attachments/assets/24353a63-faa2-4aaa-9434-37993b7383e5" />
+<img width="400" height="400" alt="港澳出入境(澳)检测" src="https://github.com/user-attachments/assets/f5a41229-e93a-4cc5-8361-d5111245054c" />
+<img width="400" height="400" alt="民航车牌检测" src="https://github.com/user-attachments/assets/c268c790-9382-4005-a8d9-bf8056e535e9" />
 ---
 
 ## 📑 目录
