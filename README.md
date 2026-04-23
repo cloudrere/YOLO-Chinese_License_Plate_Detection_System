@@ -396,6 +396,8 @@ config.DEFAULT_SETTINGS
 - 日志面板的所有记录可以复制出来用于问题反馈
 
 ---
+获取源码请加微信（备注来意，有偿服务）
+<img width="1268" height="1729" alt="微信" src="https://github.com/user-attachments/assets/d8d3564a-208c-4eac-a861-07208775c31e" />
 
 ## 📄 License
 
